@@ -4,7 +4,7 @@
  *  Does not work yet                                                         *
  *                                                                            *
  *  First edit: 12/06/2018                                                    *
- *   Last edit: 12/07/2018                                                    *
+ *   Last edit: 17/12/2018                                                    *
  *  Notes:                                                                    *
  *                                                                            *
  *                                                                            *
@@ -18,7 +18,7 @@
      - arbitrary bounds checker
      - arbitrary AA for problem
      - arbitrary nodequeue
-     - You should be able to choose type of dual bound!!!
+     - You should be able to choose type of dual bound!
 
    So:
      First I need to try to do this for KP

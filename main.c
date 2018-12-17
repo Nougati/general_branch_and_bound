@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
   int (*prob_read)(const char *, void *) = &problem_reader;
   void (*another_func)(void *) = &do_another_thing;
   
-  struct a_struct* min_struct = (struct a_struct *) malloc(sizeof(struct a_struct));
+  struct a_struct* min_struct = malloc(sizeof(struct a_struct));
 
   min_struct->x = 3;
 
