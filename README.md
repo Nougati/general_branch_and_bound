@@ -3,7 +3,7 @@
 This project is generally just meant to be a framework for playing with
  different strategies within a general Branch and Bound scheme. 
 For an introduction to Branch and Bound, I recommend *Integer Programming*'s
- introduction by Confirt, Cornuejols and Zambelli, but also the
+ introduction by Conforti, Cornuejols and Zambelli, but also the
  [Wikipedia Entry](https://en.wikipedia.org/wiki/Branch_and_bound) is completely
  fine for this too.
 One may argue that there are already open source projects which interface
