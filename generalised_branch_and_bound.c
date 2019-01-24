@@ -33,21 +33,15 @@
 
 */
 
-/**/
-struct poo_struct{
-  int x;
-};
-
+  //TODO Investigate variable length argument lists and see if we can get two independent files with different things using this
 
 void generalised_branch_and_bound(int (*problem_reader)(const char *filename, 
                                   void *problem_spec_struct), void *a_structure,
                                   void (*some_other_func)(void *a_thing))
 {
-  printf("Very nice!\n");
-  //struct poo_struct* in_house = (struct poo_struct*) a_structure;
-  //printf("poo_struct->x : %d\n", in_house->x);
-  //TODO Investigate variable length argument lists and see if we can get two independent files with different things using this
+  // Read the problem in
   (*problem_reader)("Ass", a_structure);
+
   (*some_other_func)(a_structure);
 
 }
