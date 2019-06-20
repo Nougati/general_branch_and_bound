@@ -22,3 +22,4 @@ Some things I'd like this to one day service are:
  - Having a basic implementation of an LP solver to compare with, say, an approximation algorithm solver.
  - Supporting the ability to solve different problem types, such as: Knapsack,
     Travelling Salesman, and Vehicle Routing Problems.
+ - The option of solving with a Branch and Cut, and various methods of cutting.
